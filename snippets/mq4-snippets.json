@@ -1,0 +1,71 @@
+{
+    "stochastic": {
+        "body": "double ${1:stochValue} = iStochastic(${2:_Symbol}, ${3:_Period}, ${4:K_periods}, ${5:D_periods}, ${6:Slowing}, ${7|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${8:0}, ${9|MODE_MAIN,MODE_SIGNAL|}, ${10:pos});",
+        "description": "Value of stochastic indicator",
+        "prefix": "stochastic",
+        "scope": "source.mq4"
+    },
+    "averages": {
+        "body": "double ${1:maValue} = iMA(${2:_Symbol}, ${3:_Period}, ${4:ma_periods}, ${5:ma_shift}, ${6|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${7|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${8:pos});",
+        "description": "Value of averages indicator",
+        "prefix": "averages",
+        "scope": "source.mq4"
+    },
+    "averagesOnArray": {
+        "body": "double ${1:maValue} = iMAOnArray(${2:array}, ${3:count}, ${4:ma_periods}, ${5:ma_shift}, ${6|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${7:pos});",
+        "description": "Value of averages indicator on array",
+        "prefix": "averagesOnArray",
+        "scope": "source.mq4"
+    },
+    "wpr": {
+        "body":
+        [
+            "double ${1:wprValue} = iWPR(${2:_Symbol}, ${3:_Period}, ${4:wpr_periods}, ${5:pos});"
+        ],
+        "descriptopn": "iWPR",
+        "prefix": "wpr",
+        "scope": "source.mq4"
+    },
+    "createArrowStream":{
+        "body":
+        [
+            "SetIndexStyle(${1:index}, ${2|DRAW_LINE,DRAW_SECTION,DRAW_HISTOGRAM,DRAW_ZIGZAG,DRAW_NONE|}, 0, 2);",
+            "SetIndexBuffer(${1:index}, ${3:varName});",
+            "SetIndexLabel(${1:index}, \"${4:Name}\");",
+            "SetIndexArrow(${1:index}, ${5:arrowCode});"
+        ],
+        "description": "Indicator stream",
+        "prefix": "createStream",
+        "scope": "source.mq4"
+    },
+    "createStream": {
+        "body":
+        [
+            "SetIndexStyle(${1:index}, ${2|DRAW_LINE,DRAW_SECTION,DRAW_HISTOGRAM,DRAW_ARROW,DRAW_ZIGZAG,DRAW_NONE|});",
+            "SetIndexBuffer(${1:index}, ${3:varName});",
+            "SetIndexLabel(${1:index}, \"${4:Name}\");"
+        ],
+        "description": "Indicator stream",
+        "prefix": "createStream",
+        "scope": "source.mq4"
+    },
+    "createInternalStream": {
+        "body":
+        [
+            "SetIndexStyle(${1:index}, DRAW_NONE);",
+            "SetIndexBuffer(${1:index}, ${2:varName});"
+        ],
+        "description": "Indicator internal stream",
+        "prefix": "createInternalStream",
+        "scope": "source.mq4"
+    },
+    "averagesTypeParam": {
+        "body":
+        [
+            "input ENUM_MA_METHOD ${1:name} = ${2|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}; // ${3:Smoothing method}"
+        ],
+        "description": "Input parameter of averages type",
+        "prefix": "averagesTypeParam",
+        "scope": "source.mq4"
+    }
+}

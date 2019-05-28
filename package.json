@@ -1,0 +1,27 @@
+{
+    "name": "profitrobots-mq4-snippets",
+    "displayName": "ProfitRobots MQ4 Snippets",
+    "description": "ProfitRobots MQ4 Snippets for Visual Studio Code",
+    "homepage": "https://github.com/sibvic/vsc-mq4-snippets",
+    "version": "1.0.0",
+    "publisher": "sibvic",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "mq4",
+                "path": "./snippets/mq4-snippets.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sibvic/vsc-mq4-snippets.git"
+    }
+}
