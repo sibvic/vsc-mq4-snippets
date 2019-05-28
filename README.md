@@ -29,4 +29,4 @@ Translates into
 
 ## Donations gratefully accepted.
 
-* [Donate via Paypal])(https://paypal.me/sibvic)
+* [Donate via Paypal](https://paypal.me/sibvic)
