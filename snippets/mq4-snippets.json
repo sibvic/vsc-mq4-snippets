@@ -35,6 +35,21 @@
         "prefix": "ichimoku",
         "scope": "source.mq4"
     },
+    "checkCustomIndicator": {
+        "body":
+        [
+            "double temp = iCustom(NULL, 0, \"${1:indicator}\", 0, 0);",
+            "if (GetLastError() == ERR_INDICATOR_CANNOT_LOAD)",
+            "{",
+            "   Alert(\"Please, install the '${1:indicator}' indicator\");",
+            "   return INIT_FAILED;",
+            "}"
+        ],
+        "descriptopn": "Check wether the custom indicator installed in the system",
+        "prefix": "checkCustomIndicator",
+        "scope": "source.mq4"
+    },
+    
     "createArrowStream":{
         "body":
         [

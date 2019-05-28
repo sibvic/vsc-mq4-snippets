@@ -10,6 +10,23 @@ Translates into
 
 TODO: stochastic, averages, averagesOnArray, wpr, createArrowStream, createStream, createInternalStream, averagesTypeParam
 
-# Code snippets for other platforms
+### checkCustomIndicator
+
+Check wether the custom indicator installed in the system. Should be used in the OnInit function.
+
+Translates into
+
+    double temp = iCustom(NULL, 0, "indicator", 0, 0);
+    if (GetLastError() == ERR_INDICATOR_CANNOT_LOAD)
+    {
+       Alert("Please, install the 'indicator' indicator");
+       return INIT_FAILED;
+    }
+
+## Code snippets for other platforms
 
 * [FXTS2 Lua](https://github.com/sibvic/vsc-indicore)
+
+## Donations gratefully accepted.
+
+* [Donate via Paypal])(https://paypal.me/sibvic)
