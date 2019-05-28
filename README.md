@@ -23,10 +23,11 @@ Translates into
        return INIT_FAILED;
     }
 
-## Code snippets for other platforms
+## Related projects
 
-* [FXTS2 Lua](https://github.com/sibvic/vsc-indicore)
+* [Lint utility for indicators/strategies](https://github.com/sibvic/fxlint)
+* [Indicore Code Snippets for Visual Studio Code](https://github.com/sibvic/vsc-indicore)
 
 ## Donations gratefully accepted.
 
-* [Donate via Paypal](https://paypal.me/sibvic)
+* [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/sibvic)
