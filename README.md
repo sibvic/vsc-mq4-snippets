@@ -4,8 +4,15 @@ Full list of available code snippets could be found [here](https://github.com/si
 
 ## Related projects
 
-* [Lint utility for indicators/strategies](https://github.com/sibvic/fxlint)
-* [Indicore Code Snippets for Visual Studio Code](https://github.com/sibvic/vsc-indicore)
+[Lint utility for indicators/strategies](https://github.com/sibvic/fxlint)
+
+### Other snippets for Visual Studio Code
+
+[Indicore Code Snippets for Visual Studio Code](https://github.com/sibvic/vsc-indicore)
+
+### Code templates
+
+[FXTS2](https://github.com/sibvic/fxts2-templates) [PineScript/TradingView](https://github.com/sibvic/pinescript-templates) [MT5/MQL5](https://github.com/sibvic/mq5-templates) [MT4/MQL4](https://github.com/sibvic/vsc-mq4-snippets)
 
 ## Donations gratefully accepted.
 
