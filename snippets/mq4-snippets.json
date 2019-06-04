@@ -91,5 +91,32 @@
         "description": "Input parameter of averages type",
         "prefix": "averagesTypeParam",
         "scope": "source.mq4"
+    },
+    "createTextObj": {
+        "body":
+        [
+            "ResetLastError();",
+            "string ${1:id} = ${2:IndicatorObjPrefix + \"idValue\"};",
+            "if (!ObjectCreate(${3:chartId}, ${1:id}, OBJ_TEXT, ${4:sub_window}, ${5:time}, ${6:price}))",
+            "{",
+            "    Print(__FUNCTION__, \". Error: \", GetLastError());",
+            "    return ;",
+            "}",
+            "ObjectSetString(${3:chartId}, ${1:id}, OBJPROP_TEXT, ${7:text});",
+            "ObjectSetString(${3:chartId}, ${1:id}, OBJPROP_FONT, ${8:font});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_FONTSIZE, ${9:font_size});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_COLOR, ${10:clr});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_ANCHOR, ${11:anchor});",
+            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_ANGLE, ${12:angle});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_BACK, ${13:back});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_SELECTABLE, ${14:selection});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_SELECTED, ${15:selection});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_HIDDEN, ${16:hidden});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_ZORDER, ${17:z_order});"
+        ],
+        "description": "Creates text object",
+        "prefix": "createTextObj",
+        "scope": "source.mq4"
     }
+    
 }
