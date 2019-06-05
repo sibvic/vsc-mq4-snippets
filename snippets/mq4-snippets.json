@@ -184,7 +184,17 @@
         "description": "Creates line color/width/style input",
         "prefix": "inputLineStyling",
         "scope": "source.mq4"
-    }
-
-    
+    },
+    "forArray": {
+        "body":
+        [
+            "for (int i = 0; i < ArraySize(${1:array}); ++i)",
+            "{",
+            "   ${2:data_type} item = ${1:array}[i];",
+            "}"
+        ],
+        "description": "Iterate array values",
+        "prefix": "forArray",
+        "scope": "source.mq4"
+    }    
 }
