@@ -1,7 +1,7 @@
 {
     "name": "profitrobots-mq4-snippets",
-    "displayName": "ProfitRobots MQ4 Snippets",
-    "description": "ProfitRobots MQ4 Snippets for Visual Studio Code",
+    "displayName": "ProfitRobots MQL4 Snippets",
+    "description": "ProfitRobots MQL4 Snippets for Visual Studio Code",
     "homepage": "https://github.com/sibvic/vsc-mq4-snippets",
     "version": "1.1.0",
     "publisher": "sibvic",

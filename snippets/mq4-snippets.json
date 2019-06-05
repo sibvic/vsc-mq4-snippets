@@ -59,7 +59,7 @@
             "SetIndexArrow(${1:index}, ${5:arrowCode});"
         ],
         "description": "Indicator stream",
-        "prefix": "createStream",
+        "prefix": "createArrowStream",
         "scope": "source.mq4"
     },
     "createStream": {
@@ -196,5 +196,43 @@
         "description": "Iterate array values",
         "prefix": "forArray",
         "scope": "source.mq4"
-    }    
+    },
+    "iLowest": {
+        "body":
+        [
+            "int ${1:lowestIndex} = iLowest(${2:_Symbol}, ${3:_Period}, ${4|MODE_OPEN,MODE_LOW,MODE_HIGH,MODE_CLOSE,MODE_VOLUME,MODE_TIME|}, ${5:count}, ${6:start});"
+        ],
+        "description": "Find index of lowest value",
+        "prefix": "iLowest",
+        "scope": "source.mq4"
+    },
+    "iHighest": {
+        "body":
+        [
+            "int ${1:highestIndex} = iHighest(${2:_Symbol}, ${3:_Period}, ${4|MODE_OPEN,MODE_LOW,MODE_HIGH,MODE_CLOSE,MODE_VOLUME,MODE_TIME|}, ${5:count}, ${6:start});"
+        ],
+        "description": "Find index of higest value",
+        "prefix": "iHighest",
+        "scope": "source.mq4"
+    },
+    "iLowestLow": {
+        "body":
+        [
+            "int ${1:lowestIndex} = iLowest(${2:_Symbol}, ${3:_Period}, MODE_LOW, ${4:count}, ${5:start});",
+            "double ${6:lowest} = iLow(${2:_Symbol}, ${3:_Period}, ${1:lowestIndex});"
+        ],
+        "description": "Find lowest low value",
+        "prefix": "iLowestLow",
+        "scope": "source.mq4"
+    },
+    "iHighestHigh": {
+        "body":
+        [
+            "int ${1:highestIndex} = iHighest(${2:_Symbol}, ${3:_Period}, MODE_HIGH, ${4:count}, ${5:start});",
+            "double ${6:highest} = iHigh(${2:_Symbol}, ${3:_Period}, ${1:highestIndex});"
+        ],
+        "description": "Find highest high value",
+        "prefix": "iHighestHigh",
+        "scope": "source.mq4"
+    }
 }

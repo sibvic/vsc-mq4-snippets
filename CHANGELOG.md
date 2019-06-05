@@ -10,6 +10,7 @@
 * inputLineStyle for input ENUM_LINE_STYLE...
 * inputLineStyling for input color+width+style
 * forArray for array iteration
+* iLowest, iHighest, iLowestLow and iHighestHigh
 
 ## 1.0
 
