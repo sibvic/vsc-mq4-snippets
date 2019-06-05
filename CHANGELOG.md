@@ -5,6 +5,7 @@
 ### New in 1.1
 
 * createTextObj for creating OBJ_TEXT
+* createHLineObj for creating OBJ_HLINE
 
 ## 1.0
 
