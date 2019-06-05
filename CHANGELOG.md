@@ -6,6 +6,8 @@
 
 * createTextObj for creating OBJ_TEXT
 * createHLineObj for creating OBJ_HLINE
+* inputLineStyle for input ENUM_LINE_STYLE...
+* inputLineStyling for input color+width+style
 
 ## 1.0
 
