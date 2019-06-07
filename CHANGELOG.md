@@ -4,10 +4,11 @@
 
 ### New in 1.1
 
-* createTextObj for creating OBJ_TEXT
-* createHLineObj for creating OBJ_HLINE
-* createTrendObj for creating OBJ_TREND
-* createRectangleObj for creation OBJ_RECTANGLE
+* createTextObj for creating of OBJ_TEXT
+* createHLineObj for creating of OBJ_HLINE
+* createTrendObj for creating of OBJ_TREND
+* createRectangleObj for creation of OBJ_RECTANGLE
+* createLabelObj for creation of OBJ_LABEL
 * inputLineStyle for input ENUM_LINE_STYLE...
 * inputLineStyling for input color+width+style
 * forArray for array iteration
