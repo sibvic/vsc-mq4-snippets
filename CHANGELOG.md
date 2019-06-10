@@ -14,6 +14,7 @@
 * forArray for array iteration
 * iLowest, iHighest, iLowestLow and iHighestHigh
 * resizeArray and deleteArray
+* sar for iSAR
 
 ## 1.0
 

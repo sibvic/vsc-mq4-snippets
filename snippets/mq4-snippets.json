@@ -5,6 +5,12 @@
         "prefix": "stochastic",
         "scope": "source.mq4"
     },
+    "sar": {
+        "body": "double ${1:sarValue} = iSAR(${2:_Symbol}, ${3:_Period}, ${4:step}, ${5:max}, ${6:pos});",
+        "description": "Value of Parabolic SAR indicator",
+        "prefix": "sar",
+        "scope": "source.mq4"
+    },
     "averages": {
         "body": "double ${1:maValue} = iMA(${2:_Symbol}, ${3:_Period}, ${4:ma_periods}, ${5:ma_shift}, ${6|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${7|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${8:pos});",
         "description": "Value of averages indicator",
