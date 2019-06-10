@@ -13,6 +13,7 @@
 * inputLineStyling for input color+width+style
 * forArray for array iteration
 * iLowest, iHighest, iLowestLow and iHighestHigh
+* resizeArray and deleteArray
 
 ## 1.0
 

@@ -250,6 +250,29 @@
         "prefix": "forArray",
         "scope": "source.mq4"
     },
+    "deleteArray": {
+        "body":
+        [
+            "for (int i = 0; i < ArraySize(${1:array}); ++i)",
+            "{",
+            "   delete ${1:array}[i];",
+            "}",
+            "ArrayResize(${1:array}, 0);"
+        ],
+        "description": "Deletes array of objects",
+        "prefix": "deleteArray",
+        "scope": "source.mq4"
+    },
+    "resizeArray": {
+        "body":
+        [
+            "int size = ArraySize(${1:array});",
+            "ArrayResize(${1:array}, size + ${2:n});"
+        ],
+        "description": "Deletes array of objects",
+        "prefix": "resizeArray",
+        "scope": "source.mq4"
+    },
     "iLowest": {
         "body":
         [
