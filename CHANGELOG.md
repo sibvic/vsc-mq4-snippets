@@ -15,6 +15,7 @@
 * iLowest, iHighest, iLowestLow and iHighestHigh
 * resizeArray and deleteArray
 * sar for iSAR
+* rsi for iRSI
 
 ## 1.0
 
