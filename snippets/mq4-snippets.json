@@ -44,7 +44,7 @@
     "rsi": {
         "body":
         [
-            "double ${1:rsiValue} = iRSI(${2:_Symbol}, ${3:_Period}, ${4:rsi_period}, ${5|MODE_OPEN,MODE_LOW,MODE_HIGH,MODE_CLOSE,MODE_VOLUME,MODE_TIME|}, ${6:pos});"
+            "double ${1:rsiValue} = iRSI(${2:_Symbol}, ${3:_Period}, ${4:rsi_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
         ],
         "descriptopn": "iRSI",
         "prefix": "rsi",
