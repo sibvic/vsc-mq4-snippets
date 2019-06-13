@@ -98,13 +98,22 @@
         "prefix": "createInternalStream",
         "scope": "source.mq4"
     },
-    "averagesTypeParam": {
+    "inputAveragesType": {
         "body":
         [
             "input ENUM_MA_METHOD ${1:name} = ${2|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}; // ${3:Smoothing method}"
         ],
         "description": "Input parameter of averages type",
-        "prefix": "averagesTypeParam",
+        "prefix": "inputAveragesType",
+        "scope": "source.mq4"
+    },
+    "inputCorner": {
+        "body":
+        [
+            "input ENUM_BASE_CORNER ${1:name} = ${2|CORNER_LEFT_UPPER,CORNER_LEFT_LOWER,CORNER_RIGHT_LOWER,CORNER_RIGHT_UPPER|}; // ${3:Corner}"
+        ],
+        "description": "Input parameter of a corder",
+        "prefix": "inputCorner",
         "scope": "source.mq4"
     },
     "createTextObj": {

@@ -1,5 +1,12 @@
 # Change log
 
+## 1.2
+
+### New in 1.2
+
+* inputCorner for input ENUM_BASE_CORNER
+* averagesTypeParam renamed to inputAveragesType
+
 ## 1.1
 
 ### New in 1.1
