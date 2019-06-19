@@ -59,6 +59,24 @@
         "prefix": "atr",
         "scope": "source.mq4"
     },
+    "cci":{
+        "body":
+        [
+            "double ${1:cciValue} = iCCI(${2:_Symbol}, ${3:_Period}, ${4:cci_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
+        ],
+        "description": "iCCI",
+        "prefix": "cci",
+        "scope": "source.mq4"
+    },
+    "adx":{
+        "body":
+        [
+            "double ${1:adxValue} = iADX(${2:_Symbol}, ${3:_Period}, ${4:adx_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6|MODE_MAIN,MODE_PLUSDI,MODE_MINUSDI|}, ${7:pos});"
+        ],
+        "description": "iADX",
+        "prefix": "adx",
+        "scope": "source.mq4"
+    },
     "checkCustomIndicator": {
         "body":
         [

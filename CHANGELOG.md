@@ -7,6 +7,8 @@
 * inputCorner for input ENUM_BASE_CORNER
 * averagesTypeParam renamed to inputAveragesType
 * pipSize snippet
+* cci
+* adx
 
 ## 1.1
 
