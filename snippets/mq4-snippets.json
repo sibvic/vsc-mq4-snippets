@@ -301,6 +301,15 @@
         "prefix": "inputLineStyling",
         "scope": "source.mq4"
     },
+    "inputTimeframe": {
+        "body":
+        [
+            "input ENUM_TIMEFRAMES ${1:paramName} = ${2|PERIOD_CURRENT,PERIOD_M1,PERIOD_M5,PERIOD_M15,PERIOD_M30,PERIOD_H1,PERIOD_H4,PERIOD_D1,PERIOD_W1,PERIOD_MN1|}; // ${3:Timeframe}"
+        ],
+        "description": "Creates timeframe input",
+        "prefix": "inputTimeframe",
+        "scope": "source.mq4"
+    },
     "forArray": {
         "body":
         [

@@ -9,6 +9,7 @@
 * pipSize snippet
 * cci
 * adx
+* inputTimeframe for input ENUM_TIMEFRAMES
 
 ## 1.1
 
