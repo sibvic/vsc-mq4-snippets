@@ -41,6 +41,15 @@
         "prefix": "ichimoku",
         "scope": "source.mq4"
     },
+    "bands": {
+        "body":
+        [
+            "double ${1:bbValue} = iBands(${2:_Symbol}, ${3:_Period}, ${4:period}, ${5:deviation}, ${6:bands_shift}, ${7|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${8|MODE_MAIN,MODE_UPPER,MODE_LOWER|}, ${9:pos});"
+        ],
+        "description": "iBands",
+        "prefix": "bands",
+        "scope": "source.mq4"
+    },
     "rsi": {
         "body":
         [

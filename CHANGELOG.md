@@ -7,9 +7,10 @@
 * inputCorner for input ENUM_BASE_CORNER
 * averagesTypeParam renamed to inputAveragesType
 * pipSize snippet
-* cci
-* adx
+* cci for iCCI
+* adx for iADX
 * inputTimeframe for input ENUM_TIMEFRAMES
+* bands for iBands
 
 ## 1.1
 
