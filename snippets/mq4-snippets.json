@@ -50,6 +50,15 @@
         "prefix": "bands",
         "scope": "source.mq4"
     },
+    "customIndicator": {
+        "body":
+        [
+            "double ${1:value} = iCustom(${2:_Symbol}, ${3:_Period}, \"${4:name}\", ${5:params}, ${7:mode}, ${8:pos});"
+        ],
+        "description": "iCustom",
+        "prefix": "customIndicator",
+        "scope": "source.mq4"
+    },
     "rsi": {
         "body":
         [

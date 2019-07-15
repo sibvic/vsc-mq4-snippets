@@ -11,6 +11,7 @@
 * adx for iADX
 * inputTimeframe for input ENUM_TIMEFRAMES
 * bands for iBands
+* customIndicator for iCustom
 
 ## 1.1
 
