@@ -152,6 +152,15 @@
         "prefix": "inputAveragesType",
         "scope": "source.mq4"
     },
+    "inputPriceType": {
+        "body":
+        [
+            "input ENUM_APPLIED_PRICE ${1:name} = ${2|PRICE_OPEN,PRICE_LOW,PRICE_HIGH,PRICE_CLOSE,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}; // ${3:Price type}"
+        ],
+        "description": "Input parameter of averages type",
+        "prefix": "inputPriceType",
+        "scope": "source.mq4"
+    },
     "pipSize": {
         "body":
         [

@@ -12,6 +12,7 @@
 * inputTimeframe for input ENUM_TIMEFRAMES
 * bands for iBands
 * customIndicator for iCustom
+* inputPriceType for input ENUM_APPLIED_PRICE
 
 ## 1.1
 
