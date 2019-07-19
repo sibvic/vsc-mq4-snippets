@@ -14,9 +14,13 @@ Full list of available code snippets could be found [here](https://github.com/si
 
 [MT5/MQL5](https://github.com/sibvic/mq5-templates) 
 
+[NT8/Ninja Trader 8](https://github.com/sibvic/nt8-templates) 
+
 ### Code Snippets for Visual Studio Code
 
 [MT4/MQL4](https://github.com/sibvic/vsc-mq4-snippets) 
+
+[MT5/MQL5](https://github.com/sibvic/vsc-mq5-snippets) 
 
 [Indicore](https://github.com/sibvic/vsc-indicore)
 
