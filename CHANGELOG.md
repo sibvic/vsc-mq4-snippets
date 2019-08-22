@@ -1,5 +1,12 @@
 # Change log
 
+## 1.3
+
+### New in 1.3
+
+* macd for iMACD
+* enumLineStyle for ENUM_LINE_STYLE value lookup
+
 ## 1.2
 
 ### New in 1.2
