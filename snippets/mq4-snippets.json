@@ -1,8 +1,8 @@
 {
-    "stochastic": {
+    "stochasticMT4": {
         "body": "double ${1:stochValue} = iStochastic(${2:_Symbol}, ${3:_Period}, ${4:K_periods}, ${5:D_periods}, ${6:Slowing}, ${7|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${8:0}, ${9|MODE_MAIN,MODE_SIGNAL|}, ${10:pos});",
         "description": "Value of stochastic indicator",
-        "prefix": "stochastic",
+        "prefix": "stochasticMT4",
         "scope": "source.mq4"
     },
     "sar": {
@@ -50,13 +50,13 @@
         "prefix": "bands",
         "scope": "source.mq4"
     },
-    "customIndicator": {
+    "customIndicatorMT4": {
         "body":
         [
             "double ${1:value} = iCustom(${2:_Symbol}, ${3:_Period}, \"${4:name}\", ${5:params}, ${7:mode}, ${8:pos});"
         ],
         "description": "iCustom",
-        "prefix": "customIndicator",
+        "prefix": "customIndicatorMT4",
         "scope": "source.mq4"
     },
     "rsi": {
@@ -131,7 +131,7 @@
         "prefix": "createArrowStream",
         "scope": "source.mq4"
     },
-    "createStream": {
+    "createStreamMT4": {
         "body":
         [
             "SetIndexStyle(${1:index}, ${2|DRAW_LINE,DRAW_SECTION,DRAW_HISTOGRAM,DRAW_ARROW,DRAW_ZIGZAG,DRAW_NONE|});",
@@ -139,7 +139,7 @@
             "SetIndexLabel(${1:index}, \"${4:Name}\");"
         ],
         "description": "Indicator stream",
-        "prefix": "createStream",
+        "prefix": "createStreamMT4",
         "scope": "source.mq4"
     },
     "createInternalStream": {
