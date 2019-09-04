@@ -273,7 +273,7 @@
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_HIDDEN, ${12:hidden});",
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_ZORDER, ${13:z_order});",
             "}",
-            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_PRICE, ${5:price});"
+            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_PRICE, ${5:price});"
         ],
         "description": "Creates horizonal line object",
         "prefix": "createHLineObjMT4",
@@ -301,8 +301,8 @@
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_HIDDEN, ${16:hidden});",
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_ZORDER, ${17:z_order});",
             "}",
-            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_PRICE1, ${6:price1});",
-            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_PRICE2, ${8:price2});"
+            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_PRICE1, ${6:price1});",
+            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_PRICE2, ${8:price2});"
         ],
         "description": "Creates trend object",
         "prefix": "createTrendObjMT4",
