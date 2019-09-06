@@ -341,6 +341,15 @@
         "prefix": "enumLineStyle",
         "scope": "source.mq4"
     },
+    "enumAnchor": {
+        "body":
+        [
+            "${1|ANCHOR_LEFT_UPPER,ANCHOR_LEFT,ANCHOR_LEFT_LOWER,ANCHOR_LOWER,ANCHOR_RIGHT_LOWER,ANCHOR_RIGHT,ANCHOR_RIGHT_UPPER,ANCHOR_UPPER,ANCHOR_CENTER|}"
+        ],
+        "description": "Anchor lookup",
+        "prefix": "enumAnchor",
+        "scope": "source.mq4"
+    },
     "inputLineStyle": {
         "body":
         [

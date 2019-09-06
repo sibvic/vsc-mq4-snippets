@@ -6,6 +6,7 @@
 
 * macd for iMACD
 * enumLineStyle for ENUM_LINE_STYLE value lookup
+* enumAnchor for ENUM_ANCHOR_POINT value lookup
 
 ## 1.2
 
