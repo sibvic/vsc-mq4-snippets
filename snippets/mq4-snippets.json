@@ -300,7 +300,7 @@
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_HIDDEN, ${12:hidden});",
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_ZORDER, ${13:z_order});",
             "}",
-            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_TIME, ${5:time});"
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_TIME, ${5:time});"
         ],
         "description": "Creates vertical line object",
         "prefix": "createVLineObjMT4",
