@@ -7,6 +7,7 @@
 * macd for iMACD
 * enumLineStyle for ENUM_LINE_STYLE value lookup
 * enumAnchor for ENUM_ANCHOR_POINT value lookup
+* createVLineObjMT4 for OBJ_VLINE
 
 ## 1.2
 
