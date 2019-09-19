@@ -214,6 +214,8 @@
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_HIDDEN, ${16:hidden});",
             "   ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_ZORDER, ${17:z_order});",
             "}",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_TIME, ${5:time});",
+            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_PRICE1, ${6:price});",
             "ObjectSetString(${3:chartId}, ${1:id}, OBJPROP_TEXT, ${7:text});"
         ],
         "description": "MT4: Creates text object",
