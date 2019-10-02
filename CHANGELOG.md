@@ -1,5 +1,9 @@
 # Change log
 
+## 1.4
+
+### New in 1.4
+
 ## 1.3
 
 ### New in 1.3
