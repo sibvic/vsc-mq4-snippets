@@ -4,6 +4,8 @@
 
 ### New in 1.4
 
+* definePI
+
 ## 1.3
 
 ### New in 1.3

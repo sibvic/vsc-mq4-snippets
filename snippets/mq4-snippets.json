@@ -77,6 +77,15 @@
         "prefix": "atr",
         "scope": "source.mq4"
     },
+    "definePI":{
+        "body":
+        [
+            "#define Pi 3.14159265358979323846"
+        ],
+        "description": "Insert definition of PI",
+        "prefix": "definePI",
+        "scope": "source.mq4"
+    },
     "cci":{
         "body":
         [
