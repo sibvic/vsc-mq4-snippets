@@ -95,22 +95,31 @@
         "prefix": "cci",
         "scope": "source.mq4"
     },
-    "macd":{
+    "macdMT4":{
         "body":
         [
             "double ${1:macdValue} = iMACD(${2:_Symbol}, ${3:_Period}, ${4:fast_ema_period}, ${5:slow_ema_period}, ${6:signal_period}, ${7|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${8|MODE_MAIN,MODE_SIGNAL|}, ${9:pos});"
         ],
         "description": "iMACD",
-        "prefix": "macd",
+        "prefix": "macdMT4",
         "scope": "source.mq4"
     },
-    "adx":{
+    "rviMT4":{
+        "body":
+        [
+            "double ${1:rviValue} = iRVI(${2:_Symbol}, ${3:_Period}, ${4:period}, ${5|MODE_MAIN,MODE_SIGNAL|}, ${6:pos});"
+        ],
+        "description": "iRVI",
+        "prefix": "rviMT4",
+        "scope": "source.mq4"
+    },
+    "adxMT4":{
         "body":
         [
             "double ${1:adxValue} = iADX(${2:_Symbol}, ${3:_Period}, ${4:adx_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6|MODE_MAIN,MODE_PLUSDI,MODE_MINUSDI|}, ${7:pos});"
         ],
         "description": "iADX",
-        "prefix": "adx",
+        "prefix": "adxMT4",
         "scope": "source.mq4"
     },
     "checkCustomIndicator": {

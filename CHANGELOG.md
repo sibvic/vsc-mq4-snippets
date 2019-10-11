@@ -5,6 +5,7 @@
 ### New in 1.4
 
 * definePI
+* rviMT4 for iRVI
 
 ## 1.3
 
