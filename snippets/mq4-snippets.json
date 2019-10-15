@@ -188,7 +188,7 @@
         "prefix": "inputPriceType",
         "scope": "source.mq4"
     },
-    "pipSize": {
+    "pipSizeMT4": {
         "body":
         [
             "double point = MarketInfo(${1:_Symbol}, MODE_POINT);",
@@ -196,8 +196,8 @@
             "int mult = digits == 3 || digits == 5 ? 10 : 1;",
             "double pipSize = point * mult;"
         ],
-        "description": "",
-        "prefix": "pipSize",
+        "description": "MT4: pip size",
+        "prefix": "pipSizeMT4",
         "scope": "source.mq4"
     },
     "inputCorner": {
