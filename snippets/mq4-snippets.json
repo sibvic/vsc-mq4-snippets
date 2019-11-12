@@ -326,6 +326,42 @@
         "prefix": "createVLineObjMT4",
         "scope": "source.mq4"
     },
+    "OnInitEAMT4": {
+        "body":
+        [
+            "int OnInit()",
+            "{",
+            "   return INIT_SUCCEEDED;",
+            "}"
+        ],
+        "description": "OnInit for EA",
+        "prefix": "OnInitEAMT4",
+        "scope": "source.mq4"
+    },
+    "OnDeinitEAMT4": {
+        "body":
+        [
+            "void OnDeinit(const int reason)",
+            "{",
+            "   ",
+            "}"
+        ],
+        "description": "OnDeinit for EA",
+        "prefix": "OnDeinitEAMT4",
+        "scope": "source.mq4"
+    },
+    "OnTickEAMT4": {
+        "body":
+        [
+            "void OnTick()",
+            "{",
+            "   ",
+            "}"
+        ],
+        "description": "OnTick for EA",
+        "prefix": "OnTickEAMT4",
+        "scope": "source.mq4"
+    },
     "createTrendObjMT4": {
         "body":
         [
