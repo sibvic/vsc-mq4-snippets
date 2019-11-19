@@ -362,6 +362,18 @@
         "prefix": "OnTickEAMT4",
         "scope": "source.mq4"
     },
+    "OnTimerMT4": {
+        "body":
+        [
+            "void OnTimer()",
+            "{",
+            "   ",
+            "}"
+        ],
+        "description": "OnTick for EA",
+        "prefix": "OnTimerMT4",
+        "scope": "source.mq4"
+    },
     "createTrendObjMT4": {
         "body":
         [
