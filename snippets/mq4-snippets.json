@@ -427,8 +427,8 @@
             "}",
             "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_PRICE1, ${6:price1});",
             "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_PRICE2, ${8:price2});",
-            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_TIME1, ${5:time1});",
-            "ObjectSetDouble(${3:chartId}, ${1:id}, OBJPROP_TIME2, ${7:time2});"
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_TIME1, ${5:time1});",
+            "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_TIME2, ${7:time2});"
         ],
         "description": "Creates rectangle object",
         "prefix": "createRectangleObjMT4",
