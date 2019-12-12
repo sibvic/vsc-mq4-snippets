@@ -8,7 +8,7 @@
 * rviMT4 for iRVI
 * OnInitEAMT4, OnDeinitEAMT4, OnTickEAMT4, OnTimerMT4
 * changed createRectangleObjMT4
-* enumAverages
+* enumAverages, enumTimeframesMT4
 
 ## 1.3
 

@@ -443,6 +443,15 @@
         "prefix": "enumLineStyleMT4",
         "scope": "source.mq4"
     },
+    "enumTimeframesMT4": {
+        "body":
+        [
+            "${1|PERIOD_CURRENT,PERIOD_M1,PERIOD_M5,PERIOD_M15,PERIOD_M30,PERIOD_H1,PERIOD_H4,PERIOD_D1,PERIOD_W1,PERIOD_MN1|}"
+        ],
+        "description": "Creates timeframe value",
+        "prefix": "enumTimeframesMT4",
+        "scope": "source.mq4"
+    },
     "enumAveragesMT4": {
         "body":
         [
