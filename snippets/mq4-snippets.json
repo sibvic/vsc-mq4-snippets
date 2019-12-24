@@ -59,22 +59,35 @@
         "prefix": "customIndicatorMT4",
         "scope": "source.mq4"
     },
-    "rsi": {
+    "rsiMT4": {
         "body":
         [
             "double ${1:rsiValue} = iRSI(${2:_Symbol}, ${3:_Period}, ${4:rsi_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
         ],
         "description": "iRSI",
-        "prefix": "rsi",
+        "prefix": "rsiMT4",
         "scope": "source.mq4"
     },
-    "atr":{
+    "atrMT4":{
         "body":
         [
             "double ${1:atrValue} = iATR(${2:_Symbol}, ${3:_Period}, ${4:atr_period}, ${5:pos});"
         ],
         "description": "iATR",
-        "prefix": "atr",
+        "prefix": "atrMT4",
+        "scope": "source.mq4"
+    },
+    "alligatorMT4":{
+        "body":
+        [
+            "double ${1:alligatorValue} = iAlligator(${2:_Symbol}, ${3:_Period},",
+            "    ${4:jaw_period}, ${5:jaw_shift}),",
+            "    ${6:teeth_period}, ${7:teeth_shift},",
+            "    ${8:lips_period}, ${9:lips_shift}, ${10:ma_method}, ${11:applied_price},",
+            "    ${12|MODE_GATORJAW,MODE_GATORTEETH,MODE_GATORLIPS|}, ${13:pos});"
+        ],
+        "description": "iAlligator",
+        "prefix": "alligatorMT4",
         "scope": "source.mq4"
     },
     "definePI":{

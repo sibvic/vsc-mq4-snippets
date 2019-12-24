@@ -4,7 +4,7 @@
 
 ### New in 1.5
 
-...
+* alligatorMT4
 
 ## 1.4
 
