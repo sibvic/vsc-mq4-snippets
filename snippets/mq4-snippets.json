@@ -81,7 +81,7 @@
         "body":
         [
             "double ${1:alligatorValue} = iAlligator(${2:_Symbol}, ${3:_Period},",
-            "    ${4:jaw_period}, ${5:jaw_shift}),",
+            "    ${4:jaw_period}, ${5:jaw_shift},",
             "    ${6:teeth_period}, ${7:teeth_shift},",
             "    ${8:lips_period}, ${9:lips_shift}, ${10:ma_method}, ${11:applied_price},",
             "    ${12|MODE_GATORJAW,MODE_GATORTEETH,MODE_GATORLIPS|}, ${13:pos});"
