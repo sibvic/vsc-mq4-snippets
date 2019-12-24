@@ -83,7 +83,8 @@
             "double ${1:alligatorValue} = iAlligator(${2:_Symbol}, ${3:_Period},",
             "    ${4:jaw_period}, ${5:jaw_shift},",
             "    ${6:teeth_period}, ${7:teeth_shift},",
-            "    ${8:lips_period}, ${9:lips_shift}, ${10:ma_method}, ${11:applied_price},",
+            "    ${8:lips_period}, ${9:lips_shift},",
+            "    ${10|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${11|PRICE_OPEN,PRICE_LOW,PRICE_HIGH,PRICE_CLOSE,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|},",
             "    ${12|MODE_GATORJAW,MODE_GATORTEETH,MODE_GATORLIPS|}, ${13:pos});"
         ],
         "description": "iAlligator",
