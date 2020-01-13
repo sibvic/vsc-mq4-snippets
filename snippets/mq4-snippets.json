@@ -228,7 +228,7 @@
         [
             "ResetLastError();",
             "string ${1:id} = ${2:IndicatorObjPrefix + \"idValue\"};",
-            "if (ObjectFind(${3:chartId}, id) == -1)",
+            "if (ObjectFind(${3:chartId}, ${1:id}) == -1)",
             "{",
             "   if (!ObjectCreate(${3:chartId}, ${1:id}, OBJ_TEXT, ${4:sub_window}, ${5:time}, ${6:price}))",
             "   {",
@@ -259,7 +259,7 @@
         [
             "ResetLastError();",
             "string ${1:id} = ${2:IndicatorObjPrefix + \"idValue\"};",
-            "if (ObjectFind(${3:chartId}, id) == -1)",
+            "if (ObjectFind(${3:chartId}, ${1:id}) == -1)",
             "{",
             "   if (!ObjectCreate(${3:chartId}, ${1:id}, OBJ_LABEL, ${4:sub_window}, 0, 0))",
             "   {",
