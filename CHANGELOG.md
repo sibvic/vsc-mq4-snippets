@@ -5,6 +5,7 @@
 ### New in 1.5
 
 * alligatorMT4
+* momentumMT4
 
 ## 1.4
 
