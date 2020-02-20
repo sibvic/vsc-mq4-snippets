@@ -71,7 +71,7 @@
     "momentumMT4": {
         "body":
         [
-            "double ${1:memontumValue} = iRSI(${2:_Symbol}, ${3:_Period}, ${4:memontum_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
+            "double ${1:memontumValue} = iMomentum(${2:_Symbol}, ${3:_Period}, ${4:memontum_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
         ],
         "description": "iMomentum",
         "prefix": "momentumMT4",
@@ -109,13 +109,13 @@
         "prefix": "definePI",
         "scope": "source.mq4"
     },
-    "cci":{
+    "cciMT4":{
         "body":
         [
             "double ${1:cciValue} = iCCI(${2:_Symbol}, ${3:_Period}, ${4:cci_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
         ],
         "description": "iCCI",
-        "prefix": "cci",
+        "prefix": "cciMT4",
         "scope": "source.mq4"
     },
     "macdMT4":{
