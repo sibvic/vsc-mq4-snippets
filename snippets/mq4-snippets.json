@@ -361,6 +361,24 @@
         "prefix": "OnInitEAMT4",
         "scope": "source.mq4"
     },
+    "indicatorStartMT4": {
+        "body":
+        [
+            "int start()",
+            "{",
+            "   int counted_bars = IndicatorCounted();",
+            "   int minBars = ${1:1};",
+            "   int limit = MathMin(Bars - 1 - minBars, Bars - counted_bars - 1);",
+            "   for (int i = limit; i >= 0; i--)",
+            "   {",
+            "   }",
+            "   return 0;",
+            "}"
+        ],
+        "description": "MT4: start function for indicator",
+        "prefix": "indicatorStartMT4",
+        "scope": "source.mq4"
+    },
     "OnDeinitEAMT4": {
         "body":
         [
