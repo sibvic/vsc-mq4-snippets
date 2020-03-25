@@ -7,6 +7,7 @@
 * alligatorMT4
 * momentumMT4
 * indicatorStartMT4
+* OnCalculateMT4
 
 ## 1.4
 

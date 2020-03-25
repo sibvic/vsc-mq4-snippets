@@ -345,7 +345,7 @@
             "}",
             "ObjectSetInteger(${3:chartId}, ${1:id}, OBJPROP_TIME, ${5:time});"
         ],
-        "description": "Creates vertical line object",
+        "description": "MT4: Creates vertical line object",
         "prefix": "createVLineObjMT4",
         "scope": "source.mq4"
     },
@@ -357,8 +357,29 @@
             "   return INIT_SUCCEEDED;",
             "}"
         ],
-        "description": "OnInit for EA",
+        "description": "MT4: OnInit for EA",
         "prefix": "OnInitEAMT4",
+        "scope": "source.mq4"
+    },
+    "OnCalculateMT4": {
+        "body":
+        [
+            "int OnCalculate(const int rates_total,",
+            "                const int prev_calculated,",
+            "                const datetime& time[],",
+            "                const double& open[],",
+            "                const double& high[],",
+            "                const double& low[],",
+            "                const double& close[],",
+            "                const long& tick_volume[],",
+            "                const long& volume[],",
+            "                const int& spread[])",
+            "{",
+            "   return 0;",
+            "}"
+        ],
+        "description": "MT4: OnCalculate",
+        "prefix": "OnCalculateMT4",
         "scope": "source.mq4"
     },
     "indicatorStartMT4": {
