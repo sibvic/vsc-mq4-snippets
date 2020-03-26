@@ -8,6 +8,8 @@
 * momentumMT4
 * indicatorStartMT4
 * OnCalculateMT4
+* commentMT4
+* StringSplitMT4
 
 ## 1.4
 

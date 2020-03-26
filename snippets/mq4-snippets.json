@@ -507,6 +507,25 @@
         "prefix": "enumLineStyleMT4",
         "scope": "source.mq4"
     },
+    "commentMT4": {
+        "body":
+        [
+            "Comment(${1:comment});"
+        ],
+        "description": "MT4: Sets chart comment",
+        "prefix": "commentMT4",
+        "scope": "source.mq4"
+    },
+    "StringSplitMT4": {
+        "body":
+        [
+            "string ${3:list}[];",
+            "StringSplit(${1:str}, \"${2:,}\", ${3:list});"
+        ],
+        "description": "MT4: Split the string",
+        "prefix": "StringSplitMT4",
+        "scope": "source.mq4"
+    },
     "enumTimeframesMT4": {
         "body":
         [
