@@ -520,7 +520,7 @@
         "body":
         [
             "string ${3:list}[];",
-            "StringSplit(${1:str}, \"${2:,}\", ${3:list});"
+            "StringSplit(${1:str}, '${2:,}', ${3:list});"
         ],
         "description": "MT4: Split the string",
         "prefix": "StringSplitMT4",
