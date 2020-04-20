@@ -10,6 +10,8 @@
 * OnCalculateMT4
 * commentMT4
 * StringSplitMT4
+* bandsParamsMT4
+* ichimokuParamsMT4
 
 ## 1.4
 

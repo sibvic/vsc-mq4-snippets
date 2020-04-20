@@ -41,6 +41,17 @@
         "prefix": "ichimokuMT4",
         "scope": "source.mq4"
     },
+    "ichimokuParamsMT4": {
+        "body":
+        [
+            "input int ${1:tenkan_sen} = ${2:9}; // ${3:Tenkan sen}",
+            "input int ${4:kijun_sen} = ${5:26}; // ${6:Kijun sen}",
+            "input int ${7:senkoi_span_b} = ${8:52}; // ${9:Senkoi span b}"
+        ],
+        "description": "MT4: Paramters for iIchimoku",
+        "prefix": "ichimokuParamsMT4",
+        "scope": "source.mq4"
+    },
     "bandsMT4": {
         "body":
         [
