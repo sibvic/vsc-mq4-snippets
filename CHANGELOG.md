@@ -13,6 +13,7 @@
 * bandsParamsMT4
 * ichimokuParamsMT4
 * enumTradesMT4
+* propStrictMT4
 
 ## 1.4
 
