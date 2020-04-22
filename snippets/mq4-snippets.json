@@ -186,7 +186,7 @@
     "createArrowStream":{
         "body":
         [
-            "SetIndexStyle(${1:index}, ${2|DRAW_LINE,DRAW_SECTION,DRAW_HISTOGRAM,DRAW_ZIGZAG,DRAW_NONE|}, 0, 2);",
+            "SetIndexStyle(${1:index}, DRAW_ARROW, 0, 2);",
             "SetIndexBuffer(${1:index}, ${3:varName});",
             "SetIndexLabel(${1:index}, \"${4:Name}\");",
             "SetIndexArrow(${1:index}, ${5:arrowCode});"
