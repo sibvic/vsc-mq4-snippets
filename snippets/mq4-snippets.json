@@ -1,14 +1,35 @@
 {
+    "enumTradesMT4": {
+        "body": 
+        [
+            "int total = OrdersTotal();",
+            "for (int ${1:i} = 0; ${1:i} < total; ${1:i}++)",
+            "{",
+            "   if (!OrderSelect(${1:i}, SELECT_BY_POS, MODE_TRADES))",
+            "   {",
+            "      continue;",
+            "   }",
+            "   int orderType = OrderType();",
+            "   if (orderType != OP_BUY && orderType != OP_SELL)",
+            "   {",
+            "      continue;",
+            "   }",
+            "}"
+        ],
+        "description": "MT4: Enum trades",
+        "prefix": "enumTradesMT4",
+        "scope": "source.mq4"
+    },
     "stochasticMT4": {
         "body": "double ${1:stochValue} = iStochastic(${2:_Symbol}, ${3:_Period}, ${4:K_periods}, ${5:D_periods}, ${6:Slowing}, ${7|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${8:0}, ${9|MODE_MAIN,MODE_SIGNAL|}, ${10:pos});",
-        "description": "Value of stochastic indicator",
+        "description": "MT4: Value of stochastic indicator",
         "prefix": "stochasticMT4",
         "scope": "source.mq4"
     },
-    "sar": {
+    "sarMT4": {
         "body": "double ${1:sarValue} = iSAR(${2:_Symbol}, ${3:_Period}, ${4:step}, ${5:max}, ${6:pos});",
-        "description": "Value of Parabolic SAR indicator",
-        "prefix": "sar",
+        "description": "MT4: Value of Parabolic SAR indicator",
+        "prefix": "sarMT4",
         "scope": "source.mq4"
     },
     "averagesMT4": {

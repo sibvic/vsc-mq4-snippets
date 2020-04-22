@@ -12,6 +12,7 @@
 * StringSplitMT4
 * bandsParamsMT4
 * ichimokuParamsMT4
+* enumTradesMT4
 
 ## 1.4
 
