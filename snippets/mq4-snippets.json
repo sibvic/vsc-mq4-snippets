@@ -20,6 +20,12 @@
         "prefix": "enumTradesMT4",
         "scope": "source.mq4"
     },
+    "propStrictMT4": {
+        "body": "#property strict",
+        "description": "MT4: #property strict",
+        "prefix": "propStrictMT4",
+        "scope": "source.mq4"
+    },
     "stochasticMT4": {
         "body": "double ${1:stochValue} = iStochastic(${2:_Symbol}, ${3:_Period}, ${4:K_periods}, ${5:D_periods}, ${6:Slowing}, ${7|MODE_SMA,MODE_EMA,MODE_SMMA,MODE_LWMA|}, ${8:0}, ${9|MODE_MAIN,MODE_SIGNAL|}, ${10:pos});",
         "description": "MT4: Value of stochastic indicator",
