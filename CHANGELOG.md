@@ -14,6 +14,7 @@
 * ichimokuParamsMT4
 * enumTradesMT4
 * propStrictMT4
+* propStreamMT4
 
 ## 1.4
 
