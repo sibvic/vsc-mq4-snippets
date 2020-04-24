@@ -26,6 +26,16 @@
         "prefix": "propStrictMT4",
         "scope": "source.mq4"
     },
+    "propMinMaxMT4": {
+        "body": 
+        [
+            "#property indicator_minimum ${1:0}",
+            "#property indicator_maximum ${2:1}"
+        ],
+        "description": "MT4: property for min/max",
+        "prefix": "propMinMaxMT4",
+        "scope": "source.mq4"
+    },
     "propStreamMT4": {
         "body": 
         [

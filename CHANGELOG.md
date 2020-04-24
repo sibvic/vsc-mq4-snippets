@@ -15,6 +15,7 @@
 * enumTradesMT4
 * propStrictMT4
 * propStreamMT4
+* propMinMaxMT4
 
 ## 1.4
 
