@@ -19,6 +19,8 @@
 * macdParamsMT4
 * timerMT4
 * closedByMT4
+* highestArrayMT4
+* lowestArrayMT4
 
 ## 1.4
 

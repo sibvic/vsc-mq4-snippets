@@ -1,4 +1,24 @@
 {
+    "highestArrayMT4": {
+        "body": 
+        [
+            "int highestIndex = ArrayMaximum(${1:array}, ${2:start}, ${3:count});",
+            "double ${4:highest} = ${1:array}[highestIndex];"
+        ],
+        "description": "MT4: Finds the highest value in the array.",
+        "prefix": "highestArrayMT4",
+        "scope": "source.mq4"
+    },
+    "lowestArrayMT4": {
+        "body": 
+        [
+            "int lowestIndex = ArrayMinimum(${1:array}, ${2:start}, ${3:count});",
+            "double ${4:lowest} = ${1:array}[lowestIndex];"
+        ],
+        "description": "MT4: Finds the lowest value in the array.",
+        "prefix": "lowestArrayMT4",
+        "scope": "source.mq4"
+    },
     "closedByMT4": {
         "body": 
         [
