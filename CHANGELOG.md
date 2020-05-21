@@ -16,6 +16,9 @@
 * propStrictMT4
 * propStreamMT4
 * propMinMaxMT4
+* macdParamsMT4
+* timerMT4
+* closedByMT4
 
 ## 1.4
 

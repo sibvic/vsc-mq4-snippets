@@ -1,4 +1,18 @@
 {
+    "closedByMT4": {
+        "body": 
+        [
+            "if (OrderClosePrice() == OrderStopLoss() || StringFind(OrderComment(), \"[sl]\", 0) != -1)",
+            "{",
+            "}",
+            "if (OrderClosePrice() == OrderTakeProfit() || StringFind(OrderComment(), \"[tp]\", 0) != -1)",
+            "{",
+            "}"
+        ],
+        "description": "MT4: Closed by stop loss/take profit condition",
+        "prefix": "closedByMT4",
+        "scope": "source.mq4"
+    },
     "enumTradesMT4": {
         "body": 
         [
@@ -18,6 +32,12 @@
         ],
         "description": "MT4: Enum trades",
         "prefix": "enumTradesMT4",
+        "scope": "source.mq4"
+    },
+    "timerMT4": {
+        "body": "EventSetTimer(${1:1});",
+        "description": "MT4: EventSetTimer",
+        "prefix": "timerMT4",
         "scope": "source.mq4"
     },
     "propStrictMT4": {
@@ -178,7 +198,7 @@
         [
             "#define Pi 3.14159265358979323846"
         ],
-        "description": "Insert definition of PI",
+        "description": "MT4: Insert definition of PI",
         "prefix": "definePI",
         "scope": "source.mq4"
     },
@@ -187,7 +207,7 @@
         [
             "double ${1:cciValue} = iCCI(${2:_Symbol}, ${3:_Period}, ${4:cci_period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
         ],
-        "description": "iCCI",
+        "description": "MT4 iCCI",
         "prefix": "cciMT4",
         "scope": "source.mq4"
     },
@@ -196,8 +216,19 @@
         [
             "double ${1:macdValue} = iMACD(${2:_Symbol}, ${3:_Period}, ${4:fast_ema_period}, ${5:slow_ema_period}, ${6:signal_period}, ${7|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${8|MODE_MAIN,MODE_SIGNAL|}, ${9:pos});"
         ],
-        "description": "iMACD",
+        "description": "MT4: iMACD",
         "prefix": "macdMT4",
+        "scope": "source.mq4"
+    },
+    "macdParamsMT4":{
+        "body":
+        [
+            "input int fast_ema_period = 12; // Fast EMA Period",
+            "input int slow_ema_period = 26; // Slow EMA Period",
+            "input int signal_period = 9; // Signal Period"
+        ],
+        "description": "MT4: Parameters for iMACD",
+        "prefix": "macdParamsMT4",
         "scope": "source.mq4"
     },
     "rviMT4":{
