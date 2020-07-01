@@ -21,6 +21,7 @@
 * closedByMT4
 * highestArrayMT4
 * lowestArrayMT4
+* periodAsEnumMT4
 
 ## 1.4
 

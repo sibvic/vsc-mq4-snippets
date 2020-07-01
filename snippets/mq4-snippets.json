@@ -54,6 +54,15 @@
         "prefix": "enumTradesMT4",
         "scope": "source.mq4"
     },
+    "periodAsEnumMT4": {
+        "body": 
+        [
+            "(ENUM_TIMEFRAMES)_Period"
+        ],
+        "description": "MT4: _Period as enum",
+        "prefix": "periodAsEnumMT4",
+        "scope": "source.mq4"
+    },
     "timerMT4": {
         "body": "EventSetTimer(${1:1});",
         "description": "MT4: EventSetTimer",
