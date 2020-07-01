@@ -35,3 +35,5 @@ Full list of available code snippets could be found [here](https://github.com/si
 * [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/sibvic)
 
 Or support us on [Patreon](https://www.patreon.com/profitrobots)
+
+Many thanks to [fxcodebase](http://fxcodebase.com) for support.
