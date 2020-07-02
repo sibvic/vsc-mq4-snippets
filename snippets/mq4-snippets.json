@@ -795,7 +795,7 @@
             "{",
             "   return MathSqrt(Variance(data, period));",
             "}",
-            "double Variance(double& sata[], int period)",
+            "double Variance(double& data[], int period)",
             "{",
             "   double sum = 0;",
             "   double ssum = 0;",
