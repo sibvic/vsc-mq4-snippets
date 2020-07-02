@@ -787,5 +787,28 @@
         "description": "Find highest high value",
         "prefix": "iHighestHigh",
         "scope": "source.mq4"
+    },
+    "stdevMT4": {
+        "body":
+        [
+            "double StDev(double& data[], int period)",
+            "{",
+            "   return MathSqrt(Variance(data, period));",
+            "}",
+            "double Variance(double& sata[], int period)",
+            "{",
+            "   double sum = 0;",
+            "   double ssum = 0;",
+            "   for (int i = 0; i < period; i++)",
+            "   {",
+            "      sum += data[i];",
+            "      ssum += MathPow(data[i], 2);",
+            "   }",
+            "   return (ssum * period - sum * sum) / (period * (period - 1));",
+            "}"
+        ],
+        "description": "St. dev function",
+        "prefix": "stdevMT4",
+        "scope": "source.mq4"
     }
 }

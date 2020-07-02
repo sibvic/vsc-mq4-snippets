@@ -4,6 +4,8 @@
 
 ### New in 1.7
 
+* stdevMT4
+
 ## 1.5
 
 ### New in 1.5
