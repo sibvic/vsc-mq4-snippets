@@ -793,7 +793,7 @@
         [
             "double StDev(double& data[], int period, int pos)",
             "{",
-            "   return MathSqrt(Variance(data, period));",
+            "   return MathSqrt(Variance(data, period, pos));",
             "}",
             "double Variance(double& data[], int period, int pos)",
             "{",
