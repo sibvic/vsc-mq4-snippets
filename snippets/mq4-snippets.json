@@ -715,7 +715,7 @@
         "prefix": "inputTimeframe",
         "scope": "source.mq4"
     },
-    "forArray": {
+    "forArrayMT4": {
         "body":
         [
             "for (int i = 0; i < ArraySize(${1:array}); ++i)",
@@ -724,10 +724,10 @@
             "}"
         ],
         "description": "Iterate array values",
-        "prefix": "forArray",
+        "prefix": "forArrayMT4",
         "scope": "source.mq4"
     },
-    "deleteArray": {
+    "deleteArrayMT4": {
         "body":
         [
             "for (int i = 0; i < ArraySize(${1:array}); ++i)",
@@ -737,17 +737,26 @@
             "ArrayResize(${1:array}, 0);"
         ],
         "description": "Deletes array of objects",
-        "prefix": "deleteArray",
+        "prefix": "deleteArrayMT4",
         "scope": "source.mq4"
     },
-    "resizeArray": {
+    "resizeArrayMT4": {
         "body":
         [
             "int size = ArraySize(${1:array});",
             "ArrayResize(${1:array}, size + ${2:n});"
         ],
         "description": "Deletes array of objects",
-        "prefix": "resizeArray",
+        "prefix": "resizeArrayMT4",
+        "scope": "source.mq4"
+    },
+    "arrayInitMT4": {
+        "body":
+        [
+            "ArrayInitialize(${1:array}, ${2:EMPTY_VALUE});"
+        ],
+        "description": "Array initialize",
+        "prefix": "arrayInitMT4",
         "scope": "source.mq4"
     },
     "iLowest": {

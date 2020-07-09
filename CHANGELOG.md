@@ -5,6 +5,7 @@
 ### New in 1.7
 
 * stdevMT4
+* arrayInitMT4
 
 ## 1.5
 
