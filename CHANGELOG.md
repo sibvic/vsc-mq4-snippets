@@ -6,6 +6,7 @@
 
 * stdevMT4
 * arrayInitMT4
+* killTimerMT4
 
 ## 1.5
 

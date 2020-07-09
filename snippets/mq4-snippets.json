@@ -819,5 +819,14 @@
         "description": "St. dev function",
         "prefix": "stdevMT4",
         "scope": "source.mq4"
+    },
+    "killTimerMT4": {
+        "body":
+        [
+            "EventKillTimer();"
+        ],
+        "description": "EventKillTimer",
+        "prefix": "killTimerMT4",
+        "scope": "source.mq4"
     }
 }
