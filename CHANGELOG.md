@@ -7,6 +7,7 @@
 * stdevMT4
 * arrayInitMT4
 * killTimerMT4
+* streamEmptyValueMT4
 
 ## 1.5
 

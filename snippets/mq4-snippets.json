@@ -828,5 +828,14 @@
         "description": "EventKillTimer",
         "prefix": "killTimerMT4",
         "scope": "source.mq4"
+    },
+    "streamEmptyValueMT4": {
+        "body":
+        [
+            "SetIndexEmptyValue(${1:index}, ${2:EMPTY_VALUE});"
+        ],
+        "description": "Stream empty value",
+        "prefix": "streamEmptyValueMT4",
+        "scope": "source.mq4"
     }
 }
