@@ -8,6 +8,9 @@
 * arrayInitMT4
 * killTimerMT4
 * streamEmptyValueMT4
+* objectGetDoubleMT4
+* objectGetIntegerMT4
+* objectGetStringMT4
 
 ## 1.5
 
