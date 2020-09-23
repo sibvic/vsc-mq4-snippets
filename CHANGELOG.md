@@ -4,6 +4,7 @@
 
 ### New in 1.7
 
+* OnChartEventMT4
 * stdevMT4
 * arrayInitMT4
 * killTimerMT4

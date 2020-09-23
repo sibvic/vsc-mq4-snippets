@@ -541,7 +541,7 @@
             "   ",
             "}"
         ],
-        "description": "OnDeinit for EA",
+        "description": "MT4: OnDeinit for EA",
         "prefix": "OnDeinitEAMT4",
         "scope": "source.mq4"
     },
@@ -553,8 +553,19 @@
             "   ",
             "}"
         ],
-        "description": "OnTick for EA",
+        "description": "MT4: OnTick for EA",
         "prefix": "OnTickEAMT4",
+        "scope": "source.mq4"
+    },
+    "OnChartEventMT4": {
+        "body":
+        [
+            "void OnChartEvent(const int id, const long &lparam, const double &dparam, const string &sparam)",
+            "{",
+            "}"
+        ],
+        "description": "MT4: OnChartEvent",
+        "prefix": "OnChartEventMT4",
         "scope": "source.mq4"
     },
     "OnTimerMT4": {
