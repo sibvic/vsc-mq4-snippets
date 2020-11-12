@@ -269,6 +269,24 @@
         "prefix": "rviMT4",
         "scope": "source.mq4"
     },
+    "bullsPowerMT4":{
+        "body":
+        [
+            "double ${1:value} = iBullsPower(${2:_Symbol}, ${3:_Period}, ${4:period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
+        ],
+        "description": "iBullsPower",
+        "prefix": "bullsPowerMT4",
+        "scope": "source.mq4"
+    },
+    "bearsPowerMT4":{
+        "body":
+        [
+            "double ${1:value} = iBearsPower(${2:_Symbol}, ${3:_Period}, ${4:period}, ${5|PRICE_CLOSE,PRICE_OPEN,PRICE_HIGH,PRICE_LOW,PRICE_MEDIAN,PRICE_TYPICAL,PRICE_WEIGHTED|}, ${6:pos});"
+        ],
+        "description": "iBearsPower",
+        "prefix": "bearsPowerMT4",
+        "scope": "source.mq4"
+    },
     "adxMT4":{
         "body":
         [

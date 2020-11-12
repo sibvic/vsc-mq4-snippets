@@ -12,6 +12,8 @@
 * objectGetDoubleMT4
 * objectGetIntegerMT4
 * objectGetStringMT4
+* bullsPowerMT4
+* bearsPowerMT4
 
 ## 1.5
 
