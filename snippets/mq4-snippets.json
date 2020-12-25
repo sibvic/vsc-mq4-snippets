@@ -296,6 +296,15 @@
         "prefix": "adxMT4",
         "scope": "source.mq4"
     },
+    "demarkerMT4":{
+        "body":
+        [
+            "double ${1:demarkerValue} = iDeMarker(${2:_Symbol}, ${3:_Period}, ${4:demarker_period}, ${5:pos});"
+        ],
+        "description": "iDeMarker",
+        "prefix": "demarkerMT4",
+        "scope": "source.mq4"
+    },
     "checkCustomIndicator": {
         "body":
         [
