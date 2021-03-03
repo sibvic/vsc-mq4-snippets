@@ -15,6 +15,7 @@
 * bullsPowerMT4
 * bearsPowerMT4
 * demarkerMT4
+* forObjectsMT4
 
 ## 1.5
 

@@ -678,6 +678,19 @@
         "prefix": "enumLineStyleMT4",
         "scope": "source.mq4"
     },
+    "forObjectsMT4": { 
+        "body":
+        [
+            "for (int i = ObjectsTotal() - 1; i >= 0; i--)",
+            "{",
+            "   string name = ObjectName();",
+            "   int type = ObjectType(name);",
+            "}"
+        ],
+        "description": "MT4: For objects",
+        "prefix": "forObjectsMT4",
+        "scope": "source.mq4"
+    },
     "commentMT4": {
         "body":
         [
