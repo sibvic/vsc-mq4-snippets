@@ -16,6 +16,7 @@
 * bearsPowerMT4
 * demarkerMT4
 * forObjectsMT4
+* enumObjTypeMT4
 
 ## 1.5
 
