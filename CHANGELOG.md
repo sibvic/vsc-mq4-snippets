@@ -17,6 +17,7 @@
 * demarkerMT4
 * forObjectsMT4
 * enumObjTypeMT4
+* normilizeStreamMT4
 
 ## 1.5
 

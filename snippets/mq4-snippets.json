@@ -700,6 +700,20 @@
         "prefix": "forObjectsMT4",
         "scope": "source.mq4"
     },
+    "normilizeStreamMT4": { 
+        "body":
+        [
+            "int ${1:stream}LowestIndex = ArrayMinimum(${1:stream}, ${2:normalizationPeriod}, ${3:pos});",
+            "double ${1:stream}Lowest = ${1:stream}[${1:stream}LowestIndex];",
+            "int ${1:stream}HighestIndex = ArrayMaximum(${1:stream}, ${2:normalizationPeriod}, ${3:pos});",
+            "double ${1:stream}Highest = ${1:stream}[${1:stream}HighestIndex];",
+            "double ${1:stream}Range = ${1:stream}Highest - ${1:stream}Lowest;",
+            "double ${1:stream}Normilized = ${1:stream}Range == 0 ? 0 : (${1:stream}[${3:pos}] - ${1:stream}Lowest) / ${1:stream}Range;"
+        ],
+        "description": "MT4: Nomilize stream in range 0..1",
+        "prefix": "normilizeStreamMT4",
+        "scope": "source.mq4"
+    },
     "commentMT4": {
         "body":
         [
