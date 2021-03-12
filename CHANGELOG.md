@@ -1,5 +1,12 @@
 # Change log
 
+## 1.8
+
+### New in 1.8
+
+* pivothighPine2MT4
+* pivotlowPine2MT4
+
 ## 1.7
 
 ### New in 1.7

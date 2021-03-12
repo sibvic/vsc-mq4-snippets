@@ -938,5 +938,57 @@
         "description": "Get string property of an object",
         "prefix": "objectGetStringMT4",
         "scope": "source.mq4"
+    },
+    "pivothigh (from Pinescript)": {
+        "body":
+        [
+            "double pivothigh(int period, int left, int right)",
+            "{",
+            "   for (int i = 0; i < right; ++i)",
+            "   {",
+            "      if (High[period + right] <= High[period + i])",
+            "      {",
+            "         return EMPTY_VALUE;",
+            "      }",
+            "   }",
+            "   for (int i = 0; i < left; ++i)",
+            "   {",
+            "      if (High[period + right] <= High[period + right + 1 + i])",
+            "      {",
+            "         return EMPTY_VALUE;",
+            "      }",
+            "   }",
+            "   return High[period + right];",
+            "}"
+        ],
+        "description": "Replacement for the PineScript pivothigh function",
+        "prefix": "pivothighPine2MT4",
+        "scope": "source.mq4"
+    },
+    "pivotlow (from Pinescript)": {
+        "body":
+        [
+            "double pivotlow(int period, int left, int right)",
+            "{",
+            "   for (int i = 0; i < right; ++i)",
+            "   {",
+            "      if (Low[period + right] >= Low[period + i])",
+            "      {",
+            "         return EMPTY_VALUE;",
+            "      }",
+            "   }",
+            "   for (int i = 0; i < left; ++i)",
+            "   {",
+            "      if (Low[period + right] >= Low[period + right + 1 + i]))",
+            "      {",
+            "         return EMPTY_VALUE;",
+            "      }",
+            "   }",
+            "   return Low[period + right];",
+            "}"
+        ],
+        "description": "Replacement for the PineScript pivotlow function",
+        "prefix": "pivotlowPine2MT4",
+        "scope": "source.mq4"
     }
 }
