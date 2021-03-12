@@ -990,5 +990,17 @@
         "description": "Replacement for the PineScript pivotlow function",
         "prefix": "pivotlowPine2MT4",
         "scope": "source.mq4"
+    },
+    "iff (from Pinescript)": {
+        "body":
+        [
+            "double iff(bool cond, double trueVal, double falseVal)",
+            "{",
+            "   return cond ? trueVal : falseVal;",
+            "}"
+        ],
+        "description": "Replacement for the PineScript iff function",
+        "prefix": "iffPine2MT4",
+        "scope": "source.mq4"
     }
 }

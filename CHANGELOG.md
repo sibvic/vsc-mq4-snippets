@@ -6,6 +6,7 @@
 
 * pivothighPine2MT4
 * pivotlowPine2MT4
+* iffPine2MT4
 
 ## 1.7
 
