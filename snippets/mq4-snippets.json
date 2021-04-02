@@ -1002,5 +1002,26 @@
         "description": "Replacement for the PineScript iff function",
         "prefix": "iffPine2MT4",
         "scope": "source.mq4"
+    },
+    "Condition (from templates)": {
+        "body":
+        [
+            "class ${1:My}Condition : public ACondition",
+            "{",
+            "public:",
+            "   ${1:My}Condition(const string symbol, ENUM_TIMEFRAMES timeframe)",
+            "      :ACondition(symbol, timeframe)",
+            "   {",
+            "      ${2:}",
+            "   }",
+            "   bool IsPass(const int period, const datetime date)",
+            "   {",
+            "      return ${3:false};",
+            "   }",
+            "};"
+        ],
+        "description": "Replacement for the PineScript iff function",
+        "prefix": "templConditionMT4",
+        "scope": "source.mq4"
     }
 }

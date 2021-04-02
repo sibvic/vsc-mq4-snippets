@@ -7,6 +7,7 @@
 * pivothighPine2MT4
 * pivotlowPine2MT4
 * iffPine2MT4
+* templConditionMT4
 
 ## 1.7
 
