@@ -1023,5 +1023,14 @@
         "description": "Replacement for the PineScript iff function",
         "prefix": "templConditionMT4",
         "scope": "source.mq4"
+    },
+    "Current time": {
+        "body":
+        [
+            "datetime ${1:time} = TimeCurrent();"
+        ],
+        "description": "Time current",
+        "prefix": "TimeCurrentMT4",
+        "scope": "source.mq4"
     }
 }

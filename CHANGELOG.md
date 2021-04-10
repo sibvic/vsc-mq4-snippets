@@ -8,6 +8,7 @@
 * pivotlowPine2MT4
 * iffPine2MT4
 * templConditionMT4
+* TimeCurrentMT4
 
 ## 1.7
 
