@@ -9,6 +9,7 @@
 * iffPine2MT4
 * templConditionMT4
 * TimeCurrentMT4
+* createFibObjectMT4
 
 ## 1.7
 
