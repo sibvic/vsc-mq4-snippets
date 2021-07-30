@@ -2,7 +2,7 @@
     "highestArrayMT4": {
         "body": 
         [
-            "int highestIndex = ArrayMaximum(${1:array}, ${2:start}, ${3:count});",
+            "int highestIndex = ArrayMaximum(${1:array}, ${2:count}, ${3:start});",
             "double ${4:highest} = ${1:array}[highestIndex];"
         ],
         "description": "MT4: Finds the highest value in the array.",
@@ -12,7 +12,7 @@
     "lowestArrayMT4": {
         "body": 
         [
-            "int lowestIndex = ArrayMinimum(${1:array}, ${2:start}, ${3:count});",
+            "int lowestIndex = ArrayMinimum(${1:array}, ${2:count}, ${3:start});",
             "double ${4:lowest} = ${1:array}[lowestIndex];"
         ],
         "description": "MT4: Finds the lowest value in the array.",
