@@ -131,6 +131,15 @@
         "prefix": "wprMT4",
         "scope": "source.mq4"
     },
+    "fractalsMT4": {
+        "body":
+        [
+            "double ${1:fractalsValue} = iFractals(${2:_Symbol}, ${3:_Period}, ${4|MODE_UPPER,MODE_LOWER|}, ${5:pos});"
+        ],
+        "description": "MT4: iFractals",
+        "prefix": "fractalsMT4",
+        "scope": "source.mq4"
+    },
     "ichimokuMT4": {
         "body":
         [

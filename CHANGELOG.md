@@ -10,6 +10,7 @@
 * templConditionMT4
 * TimeCurrentMT4
 * createFibObjectMT4
+* fractalsMT4
 
 ## 1.7
 
