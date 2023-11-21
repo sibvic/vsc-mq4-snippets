@@ -11,6 +11,7 @@
 * TimeCurrentMT4
 * createFibObjectMT4
 * fractalsMT4
+* fixed objectGetStringMT4
 
 ## 1.7
 
