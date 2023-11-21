@@ -973,7 +973,7 @@
     "objectGetStringMT4": {
         "body":
         [
-            "int ${1:val} = ObjectGetString(${2:chart_id}, ${3:object_name}, ${4|OBJPROP_PRICE,OBJPROP_LEVELVALUE,OBJPROP_SCALE,OBJPROP_ANGLE,OBJPROP_DEVIATION|}, ${5:prop_modifier});"
+            "string ${1:val} = ObjectGetString(${2:chart_id}, ${3:object_name}, ${4|OBJPROP_NAME,OBJPROP_TEXT,OBJPROP_TOOLTIP,OBJPROP_LEVELTEXT,OBJPROP_FONT,OBJPROP_BMPFILE,OBJPROP_SYMBOL|}, ${5:prop_modifier});"
         ],
         "description": "Get string property of an object",
         "prefix": "objectGetStringMT4",
